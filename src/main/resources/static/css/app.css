@@ -1,0 +1,232 @@
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+a:HOVER {
+  color: #f60;
+}
+
+.crm-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.crm-menu li {
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.crm-menu li.selected {
+  background: #E0ECFF;
+}
+
+.crm-menu li:HOVER {
+  background: #d8d8d8;
+}
+
+.crm-menu li:BEFORE {
+  font: normal normal normal 12px/1 FontAwesome;
+  content: "\f054";
+  padding-right: 5px;
+}
+
+.app-form {
+  padding: 10px;
+}
+
+.app-form .field {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.ctr {
+  cursor: pointer;
+  margin-right: 10px;
+  font: normal normal normal 12px/1 FontAwesome;
+}
+
+.datagrid-row-selected .ctr {
+  color: #fff3f3;
+}
+
+.ctr:BEFORE {
+  padding-right: 2px;
+}
+
+.ctr-edit:BEFORE {
+  content: "\f044";
+}
+
+.ctr-delete:BEFORE {
+  content: "\f1f8";
+}
+
+.ctr:HOVER {
+  color: #f60;
+}
+
+.noflow {
+  overflow: hidden !important;
+}
+
+.l-btn-icon {
+  font-size: 16px;
+}
+
+.tree-icon {
+  font: normal normal normal 12px/1 FontAwesome;
+  font-size: 15px !important;
+  background: none;
+}
+
+.tree-folder:BEFORE {
+  content: "\f114";
+}
+
+.tree-folder-open:BEFORE {
+  content: "\f115";
+}
+
+.tree-file:BEFORE {
+  content: "\f0f6";
+}
+
+.toolbar-searcher {
+  float: right;
+}
+
+.panel-tool-a {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.noborder {
+  border-top: none;
+}
+
+.user-info {
+  float: right;
+  line-height: 70px;
+}
+
+.user-info a {
+  color: #444;
+  text-decoration: none;
+}
+
+.user-info .item {
+  cursor: pointer;
+}
+
+.user-info .item:hover {
+  color: #ff6600;
+}
+
+.user-info .item:after {
+  content: " | ";
+  padding: 0 5px;
+}
+
+.user-info .item:last-child:after {
+  content: normal;
+}
+
+.searcher-form .field {
+  width: 170px;
+  height: 30px;
+}
+
+.online {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.online-list {
+  position: fixed;
+  bottom: 22px;
+  right: 0;
+  height: 520px;
+  width: 260px;
+  z-index: 10;
+  color: #333;
+  background: rgba(255, 255, 255, 0.9);
+  font-family: \5FAE\8F6F\96C5\9ED1;
+  -webkit-background-clip: content;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, .3);
+  animation-name: layer-fadeInUpBig;
+  animation-fill-mode: both;
+  animation-duration: .3s;
+  display: none;
+  overflow-y: auto;
+}
+
+.online-list-header {
+  padding: 10px;
+  background: #e2e2e2;
+  text-align: left;
+}
+
+.online-list-header .fa-close {
+  float: right;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.online-list-header .fa-close:hover {
+  transform: rotate(180deg);
+  color: #ff6600;
+}
+
+@keyframes layer-fadeInUpBig {
+  0% {
+    opacity: 0;
+    transform: translateY(2000px)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0)
+  }
+}
+
+.online-list-users ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.online-list-users ul li {
+  padding: 10px 10px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.online-list-users ul li:hover {
+  background-color: rgba(0, 0, 0, .05);
+}
+
+.online-list-users .online-user-avator {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border: 1px solid #343434;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.online-list-users .online-user-avator i {
+  vertical-align: middle;
+  font-size: 28px;
+}
+
+.avatar-set {
+  border-radius: 50%;
+  border: 1px solid #f3f3f3;
+  margin-bottom: 20px;
+  height: 100px;
+  width: 100px;
+}

@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+  font-size: 14px;
+  background: url(../images/login-bg.jpg) fixed center center;
+}
+
+.logo_box {
+  width: 280px;
+  height: 490px;
+  padding: 35px;
+  color: #EEE;
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  margin-left: -175px;
+}
+
+.logo_box h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.forms {
+  width: 280px;
+  height: 485px;
+}
+
+.logon_inof {
+  width: 100%;
+  min-height: 450px;
+  padding-top: 35px;
+  position: relative;
+}
+
+.input_outer {
+  height: 46px;
+  padding: 0 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  position: relative;
+  border: rgba(255, 255, 255, 0.2) 2px solid !important;
+}
+
+.u_user {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  margin: 12px 13px;
+  font-size: 25px !important;
+}
+
+.l-login {
+  position: absolute;
+  z-index: 1;
+  left: 50px;
+  top: 0;
+  height: 46px;
+  font: 14px "microsoft yahei", Helvetica, Tahoma, Arial,
+  "Microsoft jhengHei";
+  line-height: 46px;
+}
+
+label {
+  color: rgb(255, 255, 255);
+  display: block;
+}
+
+.text {
+  width: 220px;
+  height: 46px;
+  outline: none;
+  display: inline-block;
+  font: 14px "microsoft yahei", Helvetica, Tahoma, Arial,
+  "Microsoft jhengHei";
+  margin-left: 50px;
+  border: none;
+  background: none;
+  line-height: 46px;
+}
+
+.act-but {
+  font-size: 20px;
+  border-radius: 10px;
+  background: #0096e6;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.act-but:HOVER {
+  opacity: 0.7;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #fff;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #fff;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #fff;
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+  color: #fff !important;
+}
+
+.actions {
+  text-align: center;
+  margin: 20px;
+}
+
+.actions a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.actions a:hover {
+  color: #ff6600;
+}
